@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Login com sucesso" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-05-03T18:08:38" hostname="CFS061611" time="3.822">
+  <properties/>
+  <testcase name="Given Estou na home page" classname="Scenario: Login com sucesso" time="0.004"/>
+  <testcase name="When Clico em Login" classname="Scenario: Login com sucesso" time="0.0"/>
+  <testcase name="And Insiro email e senha validos" classname="Scenario: Login com sucesso" time="0.0"/>
+  <testcase name="And Clico no botao de login" classname="Scenario: Login com sucesso" time="0.0"/>
+  <testcase name="Then Home page e apresentada com sucesso" classname="Scenario: Login com sucesso" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: Login com sucesso" time="13.17"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 33350
+Only local connections are allowed.
+mai 03, 2018 3:08:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: OSS
+]]></system-err>
+</testsuite>

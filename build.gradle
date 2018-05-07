@@ -1,0 +1,26 @@
+group 'automation-canais-web'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+test {
+    dependsOn cleanTest
+    testLogging.showStandardStreams = true
+
+    systemProperties = System.properties
+    println "Testing with environment: ${systemProperties['env']}"
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile 'info.cukes:cucumber-java:1.2.4'
+    testCompile 'info.cukes:cucumber-junit:1.2.4'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.9.0'
+    compile group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '2.1.0'
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="steps.RunnerTests" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="CFS061611" time="0.0">
+  <properties/>
+  <system-out><![CDATA[Feature: Login
+
+  Scenario: Login com sucesso                ?[90m# login.feature:2?[0m
+    ?[32mGiven ?[0m?[32mEstou na home page?[0m                 ?[90m# Login.openHomePage()?[0m
+    ?[32mWhen ?[0m?[32mClico em Login?[0m                      ?[90m# Login.clickOnLoginButton()?[0m
+    ?[32mAnd ?[0m?[32mInsiro email e senha validos?[0m         ?[90m# Login.insertEmail()?[0m
+    ?[32mAnd ?[0m?[32mClico no botao de login?[0m              ?[90m# Login.clico_no_botao_de_login()?[0m
+    ?[32mThen ?[0m?[32mHome page e apresentada com sucesso?[0m ?[90m# Login.showHomePage()?[0m
+
+1 Scenarios (?[32m1 passed?[0m)
+5 Steps (?[32m5 passed?[0m)
+0m13,128s
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
